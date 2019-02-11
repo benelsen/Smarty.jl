@@ -5,7 +5,6 @@ using Dates, Parameters, TimeZones, Logging
 export EncryptedPacket, DecryptedPacket, ParsedPacket, parse_telegram, decrypt_smarty_packet, encrypt_smarty_packet
 
 include("utils.jl")
-
 include("encryption.jl")
 
 abstract type AbstractDataPoint end
@@ -456,7 +455,5 @@ function parse_telegram(decrypted_packet::DecryptedPacket; check_crc = :error)
 
     ParsedPacket(decrypted_packet.frame_counter, zdt, data)
 end
-
-include("influx.jl")
 
 end # module
