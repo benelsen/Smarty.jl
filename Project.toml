@@ -3,6 +3,9 @@ uuid = "111ea41c-f413-11e8-0303-456ea3930024"
 authors = ["Ben Elsen <mail@benelsen.com>"]
 version = "0.1.0"
 
+[compat]
+julia = "^1.3"
+
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
