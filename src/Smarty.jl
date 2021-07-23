@@ -1,7 +1,6 @@
 module Smarty
 
 using Dates, Parameters, TimeZones, Logging
-
 export EncryptedPacket, DecryptedPacket, ParsedPacket, parse_telegram, decrypt_smarty_packet, encrypt_smarty_packet
 
 include("utils.jl")

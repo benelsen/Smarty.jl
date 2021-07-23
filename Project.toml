@@ -1,7 +1,7 @@
 name = "Smarty"
 uuid = "111ea41c-f413-11e8-0303-456ea3930024"
 authors = ["Ben Elsen <mail@benelsen.com>"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -11,4 +11,4 @@ Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
 
 [compat]
-julia = "^1.5"
+julia = "^1.6.2"
